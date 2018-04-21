@@ -1,0 +1,13 @@
+# http://docs.haskellstack.org/en/stable/yaml_configuration/
+
+resolver: nightly-2018-04-20
+
+packages:
+- './uuid'
+- './uuid-types'
+
+extra-deps: []
+
+flags: {}
+
+extra-package-dbs: []
